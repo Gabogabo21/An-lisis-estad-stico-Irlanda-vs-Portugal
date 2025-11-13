@@ -1,0 +1,9 @@
+
+## 📋 **2. CREA requirements.txt**
+
+```txt
+matplotlib==3.7.1
+seaborn==0.12.2
+numpy==1.24.3
+jupyter==1.0.0
+pandas==2.0.2
