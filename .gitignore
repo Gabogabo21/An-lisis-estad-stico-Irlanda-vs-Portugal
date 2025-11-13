@@ -20,7 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints
 
 # IDE
@@ -31,7 +31,7 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Data
+# Data files (opcional - si quieres incluirlos, quita estas líneas)
 *.csv
 *.xlsx
-*.db
+*.pkl
