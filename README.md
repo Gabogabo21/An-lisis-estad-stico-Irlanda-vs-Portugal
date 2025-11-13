@@ -1,36 +1,41 @@
-
-# 🎯 Análisis Predictivo: Moldavia vs Italia - Modelo ELO
+# ⚽ Análisis Predictivo: Irlanda vs Portugal - Modelo ELO
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Data Science](https://img.shields.io/badge/Data-Science-orange)
-![Sports Analytics](https://img.shields.io/badge/Sports-Analytics-green)
+![Data Science](https://img.shields.io/badge/Sports-Analytics-green)
+![Machine Learning](https://img.shields.io/badge/Predictive-Modeling-orange)
 
-Análisis predictivo del partido Moldavia vs Italia utilizando el modelo ELO para predecir probabilidades de resultado.
+Análisis predictivo completo del partido Irlanda vs Portugal utilizando el modelo ELO para calcular probabilidades de resultado.
 
 ## 📊 Resultados Principales
 
-- **Probabilidad victoria Italia**: 75.5%
-- **Probabilidad empate**: 16.7% 
-- **Probabilidad victoria Moldavia**: 7.8%
-- **Resultado más probable**: 0-2 (15.4%)
+- **Probabilidad victoria Portugal**: 68.9%
+- **Probabilidad empate**: 19.8%
+- **Probabilidad victoria Irlanda**: 11.4%
+- **Resultado más probable**: 0-1 (13.9%)
+- **Goles esperados**: Irlanda 0.67 - Portugal 2.0
 
-## 🛠 Tecnologías Utilizadas
+## 🎯 Insights Destacados
+
+1. **Mismo nivel defensivo**: Ambos equipos con tilt negativo (IRL -19.1%, POR -17.9%)
+2. **Brecha ELO significativa**: 87 vs 97 puntos
+3. **Sorpresa posible**: 1-0 de Irlanda tiene 4.6% de probabilidad
+
+## 🛠 Stack Tecnológico
 
 - Python 3.8+
-- Matplotlib
-- Seaborn
+- Matplotlib & Seaborn
 - NumPy
 - Jupyter Notebook
 
-## 🚀 Instalación y Uso
+## 🚀 Quick Start
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/moldavia-italia-analysis.git
-cd moldavia-italia-analysis
+git clone https://github.com/tu-usuario/irlanda-portugal-analysis.git
+cd irlanda-portugal-analysis
 
 # Instalar dependencias
 pip install -r requirements.txt
 
 # Ejecutar análisis
-python scripts/moldavia_italia_analysis.py
+python scripts/irlanda_portugal_analysis.py
